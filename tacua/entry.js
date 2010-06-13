@@ -16,7 +16,10 @@
  */
 
 var sys = require("sys");
+var log = require('./log');
+var ps = require('./pubsub');
 
 exports.run = function() {
+  log.info("Starting Tacua....");
 
 };
